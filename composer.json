@@ -1,0 +1,41 @@
+{
+    "name": "dimitrievski/shapegen",
+    "description": "Generates 2D shapes in different sizes",
+    "keywords": [
+        "2D",
+        "shape",
+        "generator",
+        "circle",
+        "diamond",
+        "ellipse",
+        "rectangle",
+        "square",
+        "triangle"
+    ],
+    "type": "library",
+    "require": {
+        "php": "^7.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^6.0"
+    },
+    "homepage": "https://github.com/dimitrievski/shapegen",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Filip Dimitrievski",
+            "email": "dimitrievski@outlook.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "autoload": {
+        "psr-4": {
+            "ShapeGen\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "ShapeGen\\": "tests/"
+        }
+    }
+}
